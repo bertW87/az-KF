@@ -1,0 +1,355 @@
+/* Main Style */
+html {
+    background-color: #2B3D50;
+  }
+  
+  body {
+    font-family: Poppins !important;
+  }
+  
+  .container {
+    position: relative;
+    max-width: 1440px !important;
+  }
+
+  .bkg-primary {
+    background-color: #2B3D50;
+  }
+
+  /* End Main Style */
+
+  /* Footer */
+  
+  .footer-style {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #2B3D50;
+  }
+    
+  .footer-copy {
+    color: #8aa0b9;
+    font-size: 12px;
+  }
+    
+  .right-aligned {
+    text-align: right;
+    border-right: solid 1px #3C526A;
+    padding-right: 40px;
+  }
+    
+  .left-aligned {
+    text-align: left;
+  }
+  
+  .footer-rect{
+    position: fixed;
+    left: 50%;
+    margin-left: -70px;
+    margin-top: 40px;
+    width: 120px;
+    height: 9px;
+    background: rgba(74,96,120,1);
+    opacity: 1;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+
+  @media (max-width: 992px) {
+      
+    .right-aligned {
+      text-align: center;
+      padding-right: 0px;
+      padding-bottom: 40px;
+      border-right: solid 0px #3C526A;
+      border-bottom: solid 1px #3C526A;
+    }
+  
+    .left-aligned {
+      text-align: center;
+    }
+  }
+  
+  /* End Footer */
+
+  /* Index Page */
+
+  .bkg-img-ab {
+    position: inherit;
+    align-content: center;
+    min-height: 870px;
+    object-fit: cover;
+    margin: 1rem auto auto;
+    display: block;
+    background-color: #2B3D50;
+    width: inherit;
+    max-width: 1400px;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+  }
+  
+  .az-logo {
+    position: absolute;
+    left: 169px;
+    top: 263px;
+    max-width: 661px;
+  }
+
+  .subhead-copy {
+    color: rgba(255, 255, 255, 1);
+    width: 50%;
+    position: absolute;
+    left: 169px;
+    top: 364px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 300;
+  }
+
+  .disclaimer-with-link{
+    font-weight: bold;
+    text-decoration: underline;
+    left: 167px;
+    top: 620px;
+    position: absolute;
+  }
+
+  .disclaimer-with-link a{
+    color:white;
+  }
+  .disclaimer-with-link a:hover{
+    color:white;
+  }
+
+  .cta-btn {
+    background-color: rgba(255, 255, 255, 1);
+    width: 254px;
+    height: 68px;
+    position: absolute;
+    left: 169px;
+    top: 520px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+  
+  .cta-btn-copy {
+    color: rgba(51.00000075995922, 141.0000067949295, 168.0000051856041, 1);
+    width: 130px;
+    height: 32px;
+    position: absolute;
+    left: 62px;
+    top: 18px;
+    text-align: left;
+    font-size: 19px;
+    letter-spacing: 0;
+    line-height: px;
+  }
+
+  .phone-number {
+    color: rgba(255, 255, 255, 1);
+    width: 300px;
+    height: 32px;
+    position: absolute;
+    left: 467px;
+    top: 535px;
+    text-align: left;
+    font-size: 28px;
+    font-weight: 200;
+    letter-spacing: .2em;
+  }
+
+  @media (max-width: 992px) {
+
+    .phone-number{
+      position: absolute;
+      top: 8%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align:center;
+    }
+
+  
+    .az-logo {
+      width: 313px;
+      height: 29px;
+      position: absolute;
+      top: 30%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .subhead-copy{
+      position: absolute;
+      top: 55%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      width:70%;
+    }
+
+    .cta-btn{
+      position: absolute;
+      top: 75%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .disclaimer-with-link{
+      width: 70%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      top: 90%;
+      position: absolute;
+    }
+  }
+
+
+  /* Services Page */
+
+  .az-logo-services {
+    width: 386px;
+    height: 35px;
+    position: absolute;
+    top: 134px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .sub-header-services-copy {
+    color: #ffffff;
+    width: 720;
+    height: 180px;
+    position: absolute;
+    left: 50%;
+    top: 281px;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    line-height: 32px;
+    font-weight:600;
+  }
+
+  .services-copy a{
+    color:white;
+    text-decoration: underline;
+  }
+
+  .services-copy a:hover{
+    color:white;
+  }
+
+  .number{
+    text-decoration: underline;
+    word-break: break-word;
+  }
+
+  .body-services-copy-left{
+    position:relative;
+    font-size: 14px;
+    line-height: 30px;
+    color: #2B3D50;
+    left: 256px;
+    top: -27rem;
+    width: 396px;
+    height: 300px;
+  }
+
+  ul{
+    font-size: 14px;
+    line-height: 30px;
+    color: #2B3D50;
+    font-weight: 700;
+  }
+
+  .vl{
+    position:relative;
+    border-left: 2px solid #68EDB6;
+    height: 340px;
+    top: -45.5rem;
+    left: 50%;
+  }
+
+  .body-services-copy-right{
+    position:relative;
+    font-size: 14px;
+    line-height: 30px;
+    color: #2B3D50;
+    left: 798px;
+    top: -27rem;
+    width: 371px;
+    height: 300px;
+  }
+
+  .ser-bod-copy{
+    position: absolute;
+    top: 440px;
+    font-size: 14px;
+    color: #2b3d50;
+  }
+
+  .toll-number{
+    font-weight: bold;
+  }
+
+  .link{
+    text-decoration: underline;
+    font-weight: bold;
+    color: #2b3d50;
+    word-break: break-all;
+  }
+
+  .link:hover{
+    color:#68EDB6;
+  }
+
+  .color-left{
+    border-left: solid 2px #68EDB6;
+  }
+
+  .happy{
+    position: absolute;
+    top: 386px;
+    left: 49.3%;
+  }
+
+  @media (max-width: 992px) {
+    .color-left{
+      border-left: solid 0px #68EDB6;
+      border-top:solid 2px #68EDB6;
+      padding-top:15px;
+    }
+
+    .az-logo-services {
+      width: 371px;
+      top: 120px;
+    }
+  
+    .sub-header-services-copy {
+      width: 75%;
+      top: 250px;
+    }
+
+  }
+
+  @media (max-width:568px){
+    .ser-bod-copy{
+      padding-right:30px;
+      padding-left: 30px;
+    }
+
+    .sub-header-services-copy {
+      font-size: 13px;
+      top: 240px;
+    }
+    .happy{
+      left:47%;
+    }
+  }
+  

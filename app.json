@@ -1,0 +1,6 @@
+{
+  "name": "AbsoluteZero",
+  "description": "Absolute Zero",
+  "keywords": ["node", "express", "heroku"],
+  "image": "heroku/nodejs"
+}
