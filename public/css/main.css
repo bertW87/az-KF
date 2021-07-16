@@ -326,7 +326,7 @@ html {
     }
 
     .az-logo-services {
-      width: 371px;
+      width: 313px;
       top: 120px;
     }
   
@@ -338,10 +338,6 @@ html {
   }
 
   @media (max-width:575px){
-
-    .az-logo-services{
-      width:90%;
-    }
 
     .ser-bod-copy{
       padding-right:30px;
