@@ -338,7 +338,7 @@ html {
 
   }
 
-  @media (max-width:568px){
+  @media (max-width:575px){
     .ser-bod-copy{
       padding-right:30px;
       padding-left: 30px;
