@@ -332,7 +332,7 @@ html {
     }
   
     .sub-header-services-copy {
-      width: 75%;
+      width: 80%;
       top: 250px;
     }
 
@@ -351,6 +351,7 @@ html {
     .ser-bod-copy{
       padding-right:30px;
       padding-left: 30px;
+      top: 396px;
     }
 
     .sub-header-services-copy {
@@ -359,6 +360,8 @@ html {
     }
     .happy{
       left:47%;
+      top:356px;
     }
   }
+
   
