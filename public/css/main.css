@@ -335,6 +335,11 @@ html {
       top: 250px;
     }
 
+    .happy{
+      top: 378px;
+      left: 47%;
+    }
+
   }
 
   @media (max-width:575px){
@@ -354,7 +359,7 @@ html {
       top: 240px;
     }
     .happy{
-      left:47.5%;
+      left:46.8%;
       top:410px;
     }
   }
