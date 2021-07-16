@@ -344,10 +344,6 @@ html {
       width:90%;
     }
 
-    .serv-bkg{
-      min-height: 950px;
-    }
-
     .ser-bod-copy{
       padding-right:30px;
       padding-left: 30px;
@@ -361,6 +357,22 @@ html {
     .happy{
       left:47%;
       top:356px;
+    }
+  }
+
+  @media (max-width:380px){
+
+    .serv-bkg{
+      min-height: 1090px !important;
+    }
+
+    .happy{
+      left:42%;
+      top:440px;
+    }
+
+    .ser-bod-copy{
+      top: 476px;
     }
   }
 
