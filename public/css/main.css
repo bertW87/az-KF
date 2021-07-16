@@ -339,10 +339,14 @@ html {
 
   @media (max-width:575px){
 
+    .serv-bkg{
+      min-height: 980px !important;
+    }
+
     .ser-bod-copy{
       padding-right:30px;
       padding-left: 30px;
-      top: 396px;
+      top: 466px;
     }
 
     .sub-header-services-copy {
@@ -351,7 +355,7 @@ html {
     }
     .happy{
       left:47%;
-      top:356px;
+      top:426px;
     }
   }
 
