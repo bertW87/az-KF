@@ -339,6 +339,15 @@ html {
   }
 
   @media (max-width:575px){
+
+    .az-logo-services{
+      width:90%;
+    }
+
+    .serv-bkg{
+      min-height: 950px;
+    }
+
     .ser-bod-copy{
       padding-right:30px;
       padding-left: 30px;
